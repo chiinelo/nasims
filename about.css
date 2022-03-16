@@ -1,0 +1,98 @@
+body{
+    font-family:"Apercu",sans-serif ;
+    min-width: 375px;
+}
+.navigation{
+    visibility: hidden;
+    font-size: 18px;
+}
+.nav-button{
+    background-color: #288854;
+    color: #ffffff;
+}
+.nav-dropdown{
+    justify-content: end;
+}
+.sec1{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("photos/about1.jpg");
+    color: #ffffff;
+    width: 100%;
+    height: 360px;
+    padding: 25% 15%;
+}
+.sec2-text{
+    line-height: 30px;
+}
+.sec3{
+    background-color: #FEFBF6;
+}
+.sec3a h1{
+    font-size: 25px;
+}
+.sec3a h3{
+    font-size: 25px;
+}
+.sec3 p{
+    font-weight: lighter;
+}
+.sec3 a{
+    text-decoration: none;
+    color: #288854;
+}
+.section-7-text{
+    font-size: 18px;
+    padding: 2% 3%;
+}
+.card1-yellow{
+    height: 2px;
+    width: 13%;
+    margin-top: 0;
+    background-color: #F9AE00;
+}
+.news-button{
+    width: 45%;
+    background-color: #288854;
+    border: none;
+    padding: 3%;
+    border-radius: 5%;
+    margin: 0 25% 5%;
+    color: #fff;
+}
+.section-8{
+    background-color: #141414;
+    color: #ffffff;
+}
+.sec8-text{
+    font-size: 20px;
+}
+.sec9-button{
+    width: 45%;
+    background-color: #288854;
+    border: none;
+    padding: 3%;
+    border-radius: 5%;
+    margin: 0 25% 5%;
+    color: #fff;
+}
+.section-10{
+    background-color: #08321B;
+}
+.sec10-icons{
+    color: #ffffff;
+    padding: 0 5% 0;
+    font-size: 16px;
+}
+.text-10{
+    text-decoration: none;
+    color: #ffffff;
+}
+.text-10:hover{
+    color: #ffffff;
+}
+
+/*RESPONSIVENESS*/
+@media (min-width: 576px){
+    .navigation{visibility: visible;}
+}
+
+

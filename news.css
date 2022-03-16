@@ -1,0 +1,97 @@
+body{
+    font-family:"Apercu",sans-serif ;
+    min-width: 375px;
+}
+.navigation{
+    visibility: hidden;
+    font-size: 18px;
+}
+.nav-button{
+    background-color: #288854;
+    color: #ffffff;
+}
+.nav-dropdown{
+    justify-content: end;
+}
+.section1{
+    background-color: #F9EBDC;
+}
+.sec1-text{
+    padding: 25% 10%;
+}
+.sec1-text h1{
+    font-size: 45px;
+}
+.sec2-paragraph{
+    font-weight: 220;
+    padding: 5% 5% 10%;
+}
+.section2-text img{
+    padding-top: 13%;
+}
+.sec2-container{
+    background-color: #FCFCFC;
+    padding-bottom: 20%;
+}
+.sec2-bold{
+    font-weight: bold;
+}
+
+.a-text{
+    text-decoration: none;
+    color: #288854;
+}
+.b-text{
+    text-decoration: none;
+    color: #000;
+}
+.section2-text{
+    margin-bottom: 20%;
+}
+.sec-3{
+
+}
+.portal-texta{
+    font-weight: lighter;
+}
+.portal-text{
+    font-weight: lighter;
+    padding: 5% 2% 0;
+}
+.section-8{
+    background-color: #141414;
+    color: #ffffff;
+}
+.sec8-text{
+    font-size: 20px;
+}
+.sec9-button{
+    width: 45%;
+    background-color: #288854;
+    border: none;
+    padding: 3%;
+    border-radius: 5%;
+    margin: 0 25% 5%;
+    color: #fff;
+}
+.section-10{
+    background-color: #08321B;
+}
+.sec10-icons{
+    color: #ffffff;
+    padding: 0 5% 0;
+    font-size: 16px;
+}
+.text-10{
+    text-decoration: none;
+    color: #ffffff;
+}
+.text-10:hover{
+    color: #ffffff;
+}
+/*RESPONSIVENESS*/
+@media (min-width: 576px){
+    .navigation{visibility: visible;}
+}
+
+

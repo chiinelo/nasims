@@ -1,0 +1,61 @@
+body{
+    font-family:"Apercu",sans-serif ;
+    min-width: 375px;
+}
+.navigation{
+    visibility: hidden;
+    font-size: 18px;
+}
+.nav-button{
+    background-color: #288854;
+    color: #ffffff;
+}
+.nav-dropdown{
+    justify-content: end;
+}
+.sect-1 h1{
+    padding: 5% 4% 5%;
+    font-weight: 400;
+}
+.section2{
+    line-height: 30px;
+}
+.card-login{
+    background-color: #DBF9EA;
+    font-weight: lighter;
+}
+.login-head{
+    color: #2D8A57;
+    font-size: 15px;
+}
+.login-paragraph{
+    color: #6BAF88;
+    text-space: 10;
+}
+.login-input .text1{
+    width: 70%;
+    height: 45px;
+    padding: 3%;
+    font-weight: lighter;
+}
+.login-input a{
+    text-decoration: none;
+    color: #288854;
+}
+.text2{
+    padding-right: 10%;
+}
+
+.input-button{
+    width: 70%;
+    height: 45px;
+    margin: 5% 0;
+    background-color: #7BB291;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+/*RESPONSIVENESS*/
+@media (min-width: 576px){
+    .navigation{visibility: visible;}
+}

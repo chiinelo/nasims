@@ -1,0 +1,181 @@
+body{
+    font-family:"Apercu",sans-serif ;
+    min-width: 375px;
+}
+.navigation{
+    visibility: hidden;
+    font-size: 18px;
+}
+.nav-button{
+    background-color: #288854;
+    color: #ffffff;
+}
+.nav-dropdown{
+    justify-content: end;
+}
+.slideshowa{
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("photos/hero.jpg"); color: #ffffff; object-fit: cover;
+}
+.slideshowa img{
+    background: transparent;
+}
+.slideshowa a{
+    color: #288854;
+    text-decoration: none;
+}
+.slideshowb{
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("photos/image2.jpg"); color: #ffffff;  object-fit: cover;
+
+}
+.slideshowb a{
+    color: #288854;
+    text-decoration: none;
+}
+.slideshowc{
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("photos/hero3.jpg"); color: #ffffff;  object-fit: cover;
+
+}
+.slideshowc a{
+    color: #288854;
+    text-decoration: none;
+}
+
+.section-3 p{
+    color: #ffffff;
+    padding: 2% 3%;
+}
+.section-3 a{
+    text-decoration: none;
+    color: #288854;
+}
+.section4{
+    padding:10% 5%;
+    align-items: center;
+}
+.section4 img{
+    width: 70%;
+}
+.federal-link{
+    text-decoration: none;
+    color: #288854;
+}
+.section5 img{
+    width: 50%;
+}
+.section5 a{
+    text-decoration: none;
+    color: #F9AE00;
+}
+.section5 p{
+    padding: 0 5%;
+}
+.section5 button{
+    width: 230px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    height: 53px;
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+.section-6{
+    background-color: #F2FCF9;
+}
+.section-6 h5{
+    color: #F9AE00;
+}
+.section-6 a{
+    font-size: 15px;
+
+}
+.eating-girl{
+    object-fit: cover;
+}
+.butta{
+    background-color: #DBF9EA;
+    color: #288854;
+    border: none;
+    width: 45%;
+    height: 53px;
+    padding: 4%;
+}
+.buttb{
+    border: none;
+    width: 45%;
+    height: 53px;
+    padding: 4%;
+}
+.section-7-text{
+    font-size: 18px;
+    padding: 2% 3%;
+}
+.card1-yellow{
+    height: 2px;
+    width: 13%;
+    margin-top: 0;
+    background-color: #F9AE00;
+}
+.news-button{
+    width: 45%;
+    background-color: #288854;
+    border: none;
+    padding: 3%;
+    border-radius: 5%;
+    margin: 0 25% 5%;
+    color: #fff;
+}
+.section-8{
+    background-color: #141414;
+    color: #ffffff;
+}
+.sec8-text{
+    font-size: 20px;
+}
+.sec9-button{
+    width: 45%;
+    background-color: #288854;
+    border: none;
+    padding: 3%;
+    border-radius: 5%;
+    margin: 0 25% 5%;
+    color: #fff;
+}
+.section-10{
+    background-color: #08321B;
+}
+.sec10-icons{
+    color: #ffffff;
+    padding: 0 5% 0;
+    font-size: 16px;
+}
+.text-10{
+    text-decoration: none;
+    color: #ffffff;
+}
+.text-10:hover{
+    color: #ffffff;
+}
+/*RESPONSIVENESS*/
+@media (min-width: 576px){
+    .navigation{visibility: visible;}
+}
+@media (min-width: 992px){
+    .section4{ display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .section5{
+        flex-direction: column-reverse;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .news-button{
+        width: 15%;
+        height: 40px;
+        padding: 0;
+        margin-left: 42%;
+    }
+
+}
+

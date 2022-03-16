@@ -1,0 +1,66 @@
+body{
+    font-family:"Apercu",sans-serif ;
+    min-width: 375px;
+}
+.navigation{
+    visibility: hidden;
+    font-size: 18px;
+}
+.nav-button{
+    background-color: #288854;
+    color: #ffffff;
+}
+.nav-dropdown{
+    justify-content: end;
+}
+.section1-contact{
+    background-color: #F9EBDC;
+    padding: 25% 5%;
+}
+.sec2text p{
+    font-weight: lighter;
+    padding: 5% 0 3%;
+}
+.sec2-text1 a{
+    text-decoration: none;
+    color: #288854;
+}
+.sec2-text2 a{
+    text-decoration: none;
+}
+.sec2-text2{
+    padding: 5% 0 3%;
+}
+.sec2-text2 a{
+    text-decoration: none;
+    color: #288854;
+}
+.c-text{
+    text-decoration: none;
+    color: #288854;
+}
+.sec2-text3.d-text{
+    text-decoration: none;
+    color: #000000;
+    padding: 5% 0 9%;
+}
+.section-10{
+    background-color: #08321B;
+    margin-top: 25%;
+}
+.sec10-icons{
+    color: #ffffff;
+    padding: 0 5% 0;
+    font-size: 16px;
+}
+.text-10{
+    text-decoration: none;
+    color: #ffffff;
+}
+.text-10:hover{
+    color: #ffffff;
+}
+/*RESPONSIVENESS*/
+@media (min-width: 576px){
+    .navigation{visibility: visible;}
+}
