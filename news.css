@@ -21,10 +21,15 @@ body{
 }
 .sec1-text h1{
     font-size: 45px;
+    padding: 0 5%;
+}
+.sec2b-color{
+    background-color: #FCFCFC;
 }
 .sec2-paragraph{
     font-weight: 220;
-    padding: 5% 5% 10%;
+    padding:2% 5% 0;
+
 }
 .section2-text img{
     padding-top: 13%;
@@ -92,6 +97,43 @@ body{
 /*RESPONSIVENESS*/
 @media (min-width: 576px){
     .navigation{visibility: visible;}
+}
+
+@media (min-width: 992px){
+    .sec1-text{
+        padding: 10% 3%;
+    }
+    .n-power{
+        text-align: start;
+    }
+    .test-portal{
+        text-align: start;
+        /*justify-content: start;*/
+    }
+    .sec2b{
+        display: flex;
+        margin-top: 3%;
+    }
+    .sec-3 img{
+        width: 80%;
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+    .sec2b-text{
+        text-align: start;
+        padding-left: 15%;
+        padding-right: 4%;
+        margin-bottom: 0;
+    }
+    .sec2-container{
+        padding-bottom: 0;
+    }
+    .sec9-button{
+        width: 17%;
+        padding: 1% 0;
+        /*margin-top: %;*/
+        margin-left: 25%;
+    }
 }
 
 
